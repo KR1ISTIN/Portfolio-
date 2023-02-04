@@ -1,2 +1,2 @@
 # Portfolio-
-My portfolio showcasing my projects
+My portfolio webpage showcasing my projects
