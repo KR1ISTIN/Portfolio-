@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+    
+    <title>Portfolio.DeSalme</title>
+</head>
+<body>
+    <header class="headerImg"> 
+        <div class="together">
+            <nav class="container">
+                <a href="#">Home</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contactme">Contact me</a>
+            </nav>
+            <p class="jobTitle">-Full Time Hygienst-<br>-Wannabe Programmer-</p>
+            <div class="profilePic">
+                <img id= "profilePic" src="assets/IMG_8587.jpeg" alt="my profile picture" style="filter:sepia(0.5)">
+            </div>
+            <h1 id="name">Kristin De Salme</h1>
+        </div>
+    </header>
+    <!------------------------about myself--------------------->
+    <span id="aboutme"></span>
+    <div class="typewriter typing-div"><h1 id="hello">Well Hello There, I'm Kristin</h1></div>
+    
+    <main>
+        <div class="about-me-container">
+            <div class="about-me-text letterSpace"><h3>Built for Problem Solving...and asking why.</h3>
+                <div><img src="assets/artem-sapegin-b18TRXc8UPQ-unsplash.jpg" alt="photo of a laptop" style="border-radius:10px; margin-left: 10%; margin-top:7%;" width="70%"></div>
+            </div>
+            <div class="about-me-text"><h2 id="about-me-title">About Me</h2>
+                <!-----------------------Languages------------>
+              <div class="about-paragraph-text">HTML | CSS3 | Javascript | jQuery | Express.js | Bootstrap | React.js | Node.js| Database Theory | MongoDB | MySQL | Git | Command Line</div>
+              <!------------------ BIO about myself ---------------->
+              <div id ="bio">Lorem ipsum dolor sit amet. Est dolores voluptatum qui numquam quasi 33 deserunt quisquam. Non ipsum voluptates est obcaecati autem aut maxime impedit. 
+                Ea fugiat repellendus 33 esse dignissimos ad dolorem obcaecati est fugit enim ea maxime perspiciatis. 
+                Et voluptates molestiae eum itaque autem ea molestiae dolorum id iusto velit et quia obcaecati hic iste consequatur sit ipsa temporibus.</div>
+            </div>
+        </div>
+
+    <!----------------------Portfolio Projects, add link to travel blog------------->
+    <section id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-section-left-whole"><h2>Project:</h2>
+                <div class="portfolio-title">CSS Cheatsheet</div>
+                <div class="portfolio-text">This CSS Cheatsheet project  was to create a useful resource when needing to recall some basic usage of Flexbox, Grid, and Columns, along with a few CSS style properties to help develop your project. </div>
+            </div>
+            <div class="box-class">
+              <a href="https://kr1istin.github.io/CSS-Cheatsheet/" target="_blank"><img class="box-class-img" src="assets/altumcode-PuxTq4DwUHE-unsplash.jpg" alt="photo of a laptop, phone and coffe on the table"></a>
+            </div>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-section-left-whole"><h2>Project:</h2>
+                <div class="portfolio-title">Javascript</div>
+                <div class="portfolio-text">This is a Javascript project created with HTML, CSS, and Javascript. I will be adding more words here to this paragraph section!</div>
+            </div>
+            <div class="box-class">
+                <img  class="box-class-img" src="assets/kobu-agency-ipARHaxETRk-unsplash.jpg" alt="stack of two book for Javascript and CSS with a phone on top">
+            </div>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-section-left-whole"><h2>Project:</h2>
+                <div class="portfolio-title">MERN Stack</div>
+                <div class="portfolio-text">This is the future site of the full, all-out MERN Stack projec to-be completed at course end!</div>
+            </div>
+            <div class="box-class">
+                <img  class="box-class-img" src="assets/photo-1542831371-29b0f74f9713.avif" alt="image with picture of code">
+            </div>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-section-left-whole"><h2>Project:</h2>
+                <div class="portfolio-title">React Project</div>
+                <div class="portfolio-text">What I will be developing using JSX and React to create my first React project! :)</div>
+            </div>
+            <div class="box-class">
+                <img  class="box-class-img" src="assets/photo-1546146830-2cca9512c68e.avif" alt="picture of a laptop, keyboard and a phone in the midding the reads developer">
+            </div>
+        </div>        
+        
+    </section>
+    <!----------------------------Contact Form------------------------------------->
+    <section class="contactForm" id="contactme">
+         <form class="formBox">
+            <h1>Hello Again,</h1>
+            <p>Reach out by completing the form below, or via email<a style ="color:antiquewhite; text-decoration: none;"href="mailto:kristin.desalme@gmail.com"> Kristin.desalme@gmail.com</a></p>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter Your Name" >
+            <label>Email:</label>
+            <input type="email" placeholder="Enter Your Email">
+            <label>Message:</label>
+            <textarea placeholder="Enter Your Message Here..."></textarea><br>
+            <button>Submit</button>
+        </form>
+    </section>
+    </main>
+ <!-------------------------------FOOTER---------------------->
+    <footer>
+        <section class="footerLinks">
+            <a href="mailto:kristin.desalme@gmail.com">Kristin<br>De Salme</a>
+        <p>&copy; 2023 Built and Designed by<br>Kristin De Salme</p>
+        </section>
+    <!----------LINKS at botton of page--------->
+        
+        <section class="footerLinks">
+            <p id="linkFP">Links</p>
+            <div class="linksInFooter">
+                <a  href="#">Home</a>
+                <a href="#aboutme">About Me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contactme">Contact</a>
+             </div>
+            </section>
+    <!------ICONS, will add these soon for linkined/github----->
+        <section>
+            <p>Get In Touch</p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,409 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(236,231,225,1) 0%, rgba(203,182,157,1) 94%);
+    margin: 0;
+    font-family: 'Italiana';
+    color: #281b02;
+}
+
+a:hover { /*when hovered over, the link will be italized*/
+    font-style: italic;
+    
+}
+/* ------------------NAV BAR ----------------------*/
+.headerImg {
+    background-image: URL("./assets/F443B0B9-A6FA-4DA0-8816-11F4D25E6587.jpeg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 220px;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.together {
+    font-size: 1.1vw;
+}
+
+.container {
+   display: flex;
+   justify-content: flex-end;  
+   flex-wrap: wrap;
+}
+
+header nav a { /*---links in nav bar----*/
+    background-color: #bea991 ;
+    padding: 20px;
+    color: #281b02;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 10px;
+    font-family:'Italiana';
+    font-size: 130%;   
+    letter-spacing: 2px;
+}
+
+/*---------------profile img and name-----------------*/
+.profilePic {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+.jobTitle {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding-right: 2%;
+    font-family:'Italiana';  
+    font-size: 2em;
+    flex-wrap: wrap;
+}
+
+#profilePic {
+    border-radius: 10px;
+    width: 15%;
+    height: 60%;
+}
+
+#name { /*---displays on name in header----*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    margin-right: 2%;
+    font-family: 'Italiana';
+    font-size: 2.8em;
+    letter-spacing: 7px;
+ }
+ /*-------------------About------------------*/
+ 
+#hello{ /*----well hello typing div area----*/
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Italiana';
+    font-size:2.5em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Italiana';  
+}
+.about-me-container { 
+    display: flex;
+    height: 100vh;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 50vh;
+    word-wrap: break-word;
+}
+
+.about-paragraph-text {
+    font-size:1.2em; 
+    line-height:2em; 
+    letter-spacing: .3em;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding-right: 5%;
+}
+
+.letterSpace {
+    letter-spacing: 5px;
+    
+  }
+  h3 { /* this is targeting for "Built for problem solving"*/
+    margin-left: 10%;
+    margin-top: 7%; 
+    font-size: 1.5em;
+}
+#bio { /*bio about myself*/
+    font-size: 1.2em; 
+    line-height: 2em; 
+    letter-spacing: .1em;
+     padding-right: 10%;
+}
+/*-------------highlight for about me-------------*/
+.about-me-text h2 {
+background-color: rgb(215, 200, 181, 0);
+position: relative;
+z-index: 0;
+text-decoration: none;
+}
+
+.about-me-text h2:before {
+    background-color: rgb(252, 252, 247, 0.3);
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 100%;
+    z-index: -50;
+    bottom: 0;
+    transform: translate(20px, 0px);
+}
+/*-------------------------------------------------------------*/
+
+/*-----------------The typing effect for "Well Hello"--------------- */
+.typing-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+/*----------------------LABTOP IMG IN about me section-------------------------*/
+ 
+.laptop img {
+    position: relative;
+    bottom: 39%;
+    right:5%;
+    border-radius: 20px;
+}
+
+/*----------------------portfolio section--------------------------*/
+.portfolio-container {
+    display: flex;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.portfolio-section-left-whole {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    height: 50vh;
+    word-wrap: break-word;
+    width: 45vw;
+}
+
+.portfolio-section-left-whole h2 {
+    background-color: rgb(215, 200, 181, 0);
+    position: relative;
+    z-index: 0;
+    text-decoration: none;
+}
+
+.portfolio-section-left-whole h2:before {
+    background-color: rgb(252, 252, 247, 0.3);
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 100%;
+    z-index: -50;
+    bottom: 0;
+    transform: translate(20px, 0px);
+}
+
+.portfolio-title { /*----title of project---*/
+    font-size: 2em;
+    margin-left: 20%;
+    padding: 2% 2% 2% 10%;
+}
+
+.portfolio-text {/*----Info about of project---*/
+    padding: 10%;
+    font-size: 1.5em;
+}
+
+.prtfolio-container div {
+    font-size: 5vw;
+    padding: .5em;
+    flex: 1;
+}
+
+h2 { /*--- for project: title----*/
+    font-size: 2em; 
+    letter-spacing: .4em; 
+    margin-top: 7.5%;
+}
+
+
+/*---------------IMGs in Portforlio section-------------*/
+.box-class {  /*-----border for project img's---*/
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-sizing: content-box;
+    min-width: 10vw;
+    min-height: 10vh;
+    max-width: 25%;
+    max-height: 50vh;
+    border: solid rgba(207, 156, 61, 0.5) 7px;
+    padding: 0;
+    transition: all ease .9s;     
+}
+
+.box-class:hover { /*---- hover class when over an img----*/
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-sizing: content-box;
+    max-width: 25%;
+    max-height: 50vh;
+    transform: translateY(-20px);
+    filter: brightness(70%);
+    box-shadow: 0px 10px 10px 1px rgb(67, 67, 67, .7);
+}
+
+.box-class-img { /*-----sets heigth and width of the photo---*/
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------------Contact Form-------------------*/
+.contactForm {
+    height: 75vh;
+    width: 100%;
+    background-color: #1a1818;
+    color: #ece7e1;
+    font-family:'Italiana';
+    font-size: 2em;  
+}
+
+.formBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 0 5% 0 5%;
+}
+
+input {
+    padding: 1%;
+}
+textarea {
+    padding: .3%;
+}
+button {
+    padding:.6em;
+    box-shadow: inset 0 0 10px #f8a100;  
+    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgba(236,231,225,1) 0%, rgba(203,182,157,1) 94%);
+    font-family: 'Italiana';
+    font-size: .3em;
+    letter-spacing: .3em;
+    position: relative;
+    bottom: 25px;
+}
+/*------------------footer-----------------*/
+footer {
+    background-color: rgb(252, 252, 247);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Italiana';
+    font-weight: bold;
+    
+    
+}
+.linksInFooter  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 0.5rem;
+    line-height: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #1a1818;
+}
+#linkFP {
+    text-decoration: underline;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+/*----------MEDIA QUERIES-----------*/
+@media screen and (max-width: 820px) and (max-height:1180px){
+    #profilePic {
+        width:35%;
+    } .jobTitle {
+        font-size: 3em;
+    } .container {
+        justify-content: space-around;
+    } .typing-div {
+        width: 100%;
+    } .box-class {
+        min-width: 25vw;
+        min-height: 25vh;
+        max-width: 25vh;
+        max-height: 25vh;
+    } #name {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:390px) and (max-height:844px) {
+    .container {
+        justify-content: space-around;
+    } header nav a {
+        padding:10px;
+        border-radius: 5px;
+        font-size: 3em;
+        margin: 3px 0 0 0;
+    } .jobTitle {
+        font-size: 5em;
+    } #profilePic {
+        width: 35%;
+    } #name {
+        margin-top: 50%;
+        font-size: 3em;
+    } .typing-div {
+        width: 100%;
+        font-size: .6em;
+    } .about-paragraph-text {
+        font-size: .8em;
+    } .box-class {
+        min-width: 15vw;
+        min-height: 15vh;
+        max-width: 15vh;
+        max-height: 15vh;
+    } h2 {
+        font-size: 1.7em;
+    } h3 { 
+        font-size: 1em;
+    } #bio {
+        line-height: 1.2em;
+        font-size: 1em;
+    } #about-me-title {
+        font-size: 1.5em;
+    } .portfolio-title {
+        font-size:1.7em;
+    }  .portfolio-text{
+        font-size: 1.3em;
+    } footer a {
+        font-size: 1.2em;
+    } button {
+        position: relative;
+        bottom: 1em;
+    }
+}
