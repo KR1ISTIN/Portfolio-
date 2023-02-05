@@ -60,6 +60,7 @@ header nav a { /*---links in nav bar----*/
     font-family:'Italiana';  
     font-size: 2em;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 #profilePic {
@@ -362,18 +363,21 @@ footer a {
     }
 }
 
-@media screen and (max-width:390px) and (max-height:844px) {
+@media screen and (max-width:414px) {
     .container {
         justify-content: space-around;
+      
     } header nav a {
         padding:10px;
         border-radius: 5px;
         font-size: 3em;
-        margin: 3px 0 0 0;
     } .jobTitle {
         font-size: 5em;
+        text-align: center;
     } #profilePic {
         width: 35%;
+        position: relative;
+        top: 45em;
     } #name {
         margin-top: 50%;
         font-size: 3em;
@@ -397,11 +401,11 @@ footer a {
     } #about-me-title {
         font-size: 1.5em;
     } .portfolio-title {
-        font-size:1.7em;
+        font-size:1.5em;
     }  .portfolio-text{
-        font-size: 1.3em;
+        font-size: 1.1em;
     } footer a {
-        font-size: 1.2em;
+        font-size: 1em;
     } button {
         position: relative;
         bottom: 1em;
