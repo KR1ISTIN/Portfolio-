@@ -268,6 +268,8 @@ h2 { /*--- for project: title----*/
     margin-top: 5%;
     margin-bottom: 5%;
     box-sizing: content-box;
+    min-width: 10vw;
+    max-height: 10vh;
     max-width: 25%;
     max-height: 30vh;
     transform: translateY(-20px);
