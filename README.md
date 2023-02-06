@@ -10,6 +10,8 @@ N/A
 ## Usage
 
 <img src="assets/Screen Shot 2023-02-05 at 3.31.29 PM.png" alt="picture of my webpage" width="20%">
+<br>
+<a href="https://kr1istin.github.io/Portfolio-/">Portfolio Link</a>
 
 ## Credits
 NONE
